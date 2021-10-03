@@ -1,0 +1,104 @@
+ {
+  "carousel": [
+    {
+      "id": 1,
+      "title": "Self defense is our basic motive",
+      "dsc": "Martial arts are useful for self-defense in unarmed combat situations and even in some armed combat situations, however, it's important to realize the dangers of armed situations",
+      "cover": "https://miro.medium.com/max/3840/1*lCDDvo_18bOxFukltpkFkQ.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Martial art for survival",
+      "dsc": "This is where martial arts training can have a true life-saving impact. Regularly practicing drills in a good martial arts class will help practitioners develop cardiovascular endurance",
+      "cover": "https://lh5.googleusercontent.com/_0gNmuRa2vFUelnWG2J-YlpOfpUvHU-2ZJr0iWsctjjVmjeD48EImxpNTRvcfXn3yVcnzxUUqVUH8expaaeVGziyKdJKr6wI7-z7CYo-xqp01VHOypkoKUExqp7N1il_Uy9IpNUu"
+    }
+  ],
+  "servicesHome": [
+    {
+      "id": 1,
+      "title": "Shaolin Kung Fu",
+      "price": 150,
+      "cover": "https://st.depositphotos.com/1905593/5161/i/950/depositphotos_51614835-stock-photo-tae-kwon-do-an-full.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Wushu",
+      "price": 190,
+      "cover": "https://st.depositphotos.com/1905593/5142/v/950/depositphotos_51425219-stock-illustration-judo-hand-drawn-illustration-converted.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tai Chi",
+      "price": 300,
+      "cover": "https://st.depositphotos.com/1905593/1837/i/950/depositphotos_18377165-stock-photo-american-football-player.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Qi Gong",
+      "price": 350,
+      "cover": "https://st.depositphotos.com/1905593/5161/i/950/depositphotos_51614871-stock-photo-tae-kwon-do-an-full.jpg"
+    }
+  ],
+  "servicesPage": [
+    {
+      "id": 1,
+      "title": "Shaolin Kung Fu",
+      "price": 150,
+      "cover": "https://st.depositphotos.com/1905593/5161/i/950/depositphotos_51614835-stock-photo-tae-kwon-do-an-full.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Wushu",
+      "price": 190,
+      "cover": "https://st.depositphotos.com/1905593/5142/v/950/depositphotos_51425219-stock-illustration-judo-hand-drawn-illustration-converted.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tai Chi",
+      "price": 300,
+      "cover": "https://st.depositphotos.com/1905593/1837/i/950/depositphotos_18377165-stock-photo-american-football-player.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Qi Gong",
+      "price": 350,
+      "cover": "https://st.depositphotos.com/1905593/5161/i/950/depositphotos_51614871-stock-photo-tae-kwon-do-an-full.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sanda / Sanshou",
+      "price": 680,
+      "cover": "https://st.depositphotos.com/1905593/1837/i/950/depositphotos_18377263-stock-photo-boxers.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Chinese Mandarin",
+      "price": 550,
+      "cover": "https://st.depositphotos.com/1905593/1983/v/950/depositphotos_19835717-stock-illustration-kung-fu.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Chinese Calligraphy",
+      "price": 750,
+      "cover": "https://st.depositphotos.com/1905593/5162/v/950/depositphotos_51623581-stock-illustration-taekwon-do-hand-drawn-calligraphic.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Traditional Tea Ceremony",
+      "price": 850,
+      "cover": "https://st.depositphotos.com/1905593/2130/i/950/depositphotos_21302423-stock-photo-muay.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Kil & Ghushi ",
+      "price": 850,
+      "cover": "https://st2.depositphotos.com/1905593/5224/i/950/depositphotos_52249001-stock-photo-taiji-tai-chi-an-full.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Chul dhore tana-tani",
+      "price": 1050,
+      "cover": "https://st2.depositphotos.com/5740452/49760/v/1600/depositphotos_497605784-stock-illustration-abstract-hockey-goalkeeper-from-splash.jpg"
+    }
+  ]
+}
