@@ -24,3 +24,6 @@ img {
     align-items: center;
     justify-content: center;
 }
+.spinner-grow.text-primary {
+    color: #EC2128 !important;
+}
