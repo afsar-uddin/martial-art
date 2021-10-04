@@ -12,9 +12,11 @@
 .single-footer nav a {
     display: block;
     transition: all 0.4s;
+    padding-left: 0;
 }
 .single-footer nav a:hover {
     background-color: #000;
+    padding-left: 15px;
 }
 .single-footer h3 {
     color: #fff;

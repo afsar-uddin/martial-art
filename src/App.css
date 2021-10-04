@@ -13,3 +13,14 @@ img {
 .section-gap {
     margin: 60px 0
 }
+.preloader {
+    position: fixed;
+    top: -30px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

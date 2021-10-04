@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import OfficeAddress from './OfficeAddress';
 import './Contact.css'
 
@@ -21,14 +21,15 @@ const Contact = () => {
                     </Row>
                 </Container>
             </div>
-            <div className="contact-us section-gap contact-address ">
+            <div className="contact-us section-gap contact-address">
                 <Container>
                     <Row xs={1} md={3} className="g-4">
                         {
-                            addresses.map(address => <OfficeAddress
-                                PropsOfficeAddress={address}
-                                key={address.id}
-                            ></OfficeAddress>)
+                            addresses.length === 0 ? <div className="preloader"><Spinner animation="grow" variant="primary" /></div> :
+                                addresses.map(address => <OfficeAddress
+                                    PropsOfficeAddress={address}
+                                    key={address.id}
+                                ></OfficeAddress>)
                         }
                     </Row>
                 </Container>

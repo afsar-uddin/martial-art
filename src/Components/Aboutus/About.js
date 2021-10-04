@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import AboutElements from './AboutElements';
 import Ourmission from './Ourmission';
 
@@ -34,10 +34,11 @@ const About = () => {
                 <Container>
                     <Row xs={1} md={2} className="g-4  align-items-center">
                         {
-                            aboutUs.map(aboutElm => <AboutElements
-                                propsAboutElements={aboutElm}
-                                key={aboutElm.id}
-                            ></AboutElements>)
+                            aboutUs.length === 0 ? <div className="preloader"><Spinner animation="grow" variant="primary" /></div> :
+                                aboutUs.map(aboutElm => <AboutElements
+                                    propsAboutElements={aboutElm}
+                                    key={aboutElm.id}
+                                ></AboutElements>)
                         }
                     </Row>
                 </Container>

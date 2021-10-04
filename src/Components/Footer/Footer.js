@@ -26,10 +26,10 @@ const Footer = () => {
                         <div className="single-footer">
                             <h3>Quick Link</h3>
                             <nav>
-                                <NavLink exact to="/">Home</NavLink>
-                                <NavLink exact to="/servicesall">Services</NavLink>
-                                <NavLink exact to="/aboutus">About us</NavLink>
-                                <NavLink exact to="/contact">Contact us</NavLink>
+                                <Link exact to="/">Home</Link>
+                                <Link exact to="/servicesall">Services</Link>
+                                <Link exact to="/aboutus">About us</Link>
+                                <Link exact to="/contact">Contact us</Link>
                             </nav>
                         </div>
                     </Col>

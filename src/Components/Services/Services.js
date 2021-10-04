@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import ServicesHome from './ServicesHome'
 import { Link } from 'react-router-dom';
 import './Services.css'
@@ -23,9 +23,10 @@ const Services = () => {
             </Row>
             <Row xs={1} md={2} className="g-4 align-items-center">
                 {
-                    services.map(service => <ServicesHome
-                        propsServicesHome={service}
-                    ></ServicesHome>)
+                    services.length === 0 ? <div className="preloader"><Spinner animation="grow" variant="primary" /></div> :
+                        services.map(service => <ServicesHome
+                            propsServicesHome={service}
+                        ></ServicesHome>)
                 }
             </Row>
             <Col className="view-more">

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import './Services.css'
 import ServicesAllItem from './ServicesAllItem';
 
@@ -26,10 +26,11 @@ const ServicesAll = () => {
                 <Container>
                     <Row xs={1} md={3} className="g-4">
                         {
-                            allServices.map(serviceItem => <ServicesAllItem
-                                propsServicesAllItem={serviceItem}
-                                key={serviceItem.id}
-                            ></ServicesAllItem>)
+                            allServices.length === 0 ? <div className="preloader"><Spinner animation="grow" variant="primary" /></div> :
+                                allServices.map(serviceItem => <ServicesAllItem
+                                    propsServicesAllItem={serviceItem}
+                                    key={serviceItem.id}
+                                ></ServicesAllItem>)
                         }
 
                     </Row>
