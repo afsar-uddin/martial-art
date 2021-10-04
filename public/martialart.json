@@ -110,5 +110,25 @@
       "dsc": "We are the largest martial art school in the world, we are trying to spread out around the world to be self defense. Our direction and your dedication helps to to save our lives to lead the healty and happy life.",
       "img": "https://mlep2ywfmclb.i.optimole.com/z9M7NOk-lsO0lzUO/w:auto/h:auto/q:90/https://shaolin-yuntai.com/wp-content/uploads/2019/09/yuntaiacademy03_595_copyrights-yuntai.jpg"
     }
+  ],
+  "contactus": [
+    {
+      "id": 1,
+      "title": "Head office",
+      "address": "247 / 3, 18 number road, Uttara, Sector 4, Dhaka 1209",
+      "pointer": "https://static.vecteezy.com/system/resources/previews/000/547/654/non_2x/pin-icon-flat-vector-illustration-design-template.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Branch",
+      "address": "21 / 3, 8 number road, GEC Circle, Chattogram 4371",
+      "pointer": "https://static.vecteezy.com/system/resources/previews/000/547/654/non_2x/pin-icon-flat-vector-illustration-design-template.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Sub Branch",
+      "address": "Bhabaniya, Kaptesseissa Bazar road, Feni 3421",
+      "pointer": "https://static.vecteezy.com/system/resources/previews/000/547/654/non_2x/pin-icon-flat-vector-illustration-design-template.jpg"
+    }
   ]
 }

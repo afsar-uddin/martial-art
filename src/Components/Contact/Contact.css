@@ -1,0 +1,16 @@
+.contact-address {
+    text-align: center;
+}
+
+.contact-address img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.contact-address .col div {
+    background-color: #f9f9f9;
+    padding: 40px 30px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}

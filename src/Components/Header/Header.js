@@ -21,6 +21,7 @@ const Header = () => {
                             <NavLink activeClassName="active" exact to="/">Home</NavLink>
                             <NavLink activeClassName="active" exact to="/servicesall">Services</NavLink>
                             <NavLink activeClassName="active" exact to="/aboutus">About us</NavLink>
+                            <NavLink activeClassName="active" exact to="/contact">Contact us</NavLink>
                         </nav>
                     </div>
                 </Row>
