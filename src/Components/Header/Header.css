@@ -1,0 +1,33 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.logo img {
+    max-width: 100px;
+}
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a {
+    text-decoration: none;
+}
+.logo span {
+    color: #313131;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a {
+    color: #313113;
+    font-weight: 500;
+    margin-left: 5px;
+    padding: 10px 20px;
+    color: #EC2128;
+    transition: all 0.4s;
+}
+nav a.active, nav a:hover {
+    background-color: #313131;
+    border-radius: 5px;
+    color: #f9f9f9;
+}

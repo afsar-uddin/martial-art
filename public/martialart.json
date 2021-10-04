@@ -1,16 +1,10 @@
- {
-  "carousel": [
+{
+  "banner": [
     {
       "id": 1,
       "title": "Self defense is our basic motive",
       "dsc": "Martial arts are useful for self-defense in unarmed combat situations and even in some armed combat situations, however, it's important to realize the dangers of armed situations",
       "cover": "https://miro.medium.com/max/3840/1*lCDDvo_18bOxFukltpkFkQ.jpeg"
-    },
-    {
-      "id": 2,
-      "title": "Martial art for survival",
-      "dsc": "This is where martial arts training can have a true life-saving impact. Regularly practicing drills in a good martial arts class will help practitioners develop cardiovascular endurance",
-      "cover": "https://lh5.googleusercontent.com/_0gNmuRa2vFUelnWG2J-YlpOfpUvHU-2ZJr0iWsctjjVmjeD48EImxpNTRvcfXn3yVcnzxUUqVUH8expaaeVGziyKdJKr6wI7-z7CYo-xqp01VHOypkoKUExqp7N1il_Uy9IpNUu"
     }
   ],
   "servicesHome": [

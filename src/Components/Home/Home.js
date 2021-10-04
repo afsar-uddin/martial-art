@@ -1,10 +1,10 @@
 import React from 'react';
-import Carouse from '../Carousel/Carouse';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
         <div className="home-content">
-            <Carouse></Carouse>
+            <Banner></Banner>
         </div>
     );
 };

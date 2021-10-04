@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import CarouselSlider from './CarouselSlider'
-import { Carousel } from 'reactstrap';
 
-const Carouse = () => {
-    const [sliders, setSliders] = useState([])
+const Banner = () => {
+    const [banner, setBanner] = useState([])
     useEffect(() => {
         fetch('./martialart.json')
             .then(res => res.json())
-            .then(data => setSliders(data.carousel))
+            .then(data => console.log(data.banner))
     }, [])
     return (
         <div className="slider-area">
@@ -17,4 +15,4 @@ const Carouse = () => {
     );
 };
 
-export default Carouse;
+export default Banner;
