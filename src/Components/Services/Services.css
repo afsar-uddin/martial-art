@@ -1,0 +1,17 @@
+.sec-title {
+    margin: 45px 0;
+    background-color: #f9f9f9;
+    padding: 30px 15px;
+    border-radius: 5px;
+}
+.sec-title h2 {
+    margin: 0;
+    font-weight: 700;
+}
+.single-service img {
+    height: 400px;
+}
+.view-more.col {
+    text-align: center;
+    margin: 45px 0;
+}
