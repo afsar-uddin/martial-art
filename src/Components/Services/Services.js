@@ -21,7 +21,7 @@ const Services = () => {
                     </div>
                 </Col>
             </Row>
-            <Row xs={1} md={2} className="g-4">
+            <Row xs={1} md={2} className="g-4 align-items-center">
                 {
                     services.map(service => <ServicesHome
                         propsServicesHome={service}

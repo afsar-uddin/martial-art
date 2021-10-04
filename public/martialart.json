@@ -12,7 +12,7 @@
       "id": 1,
       "title": "Shaolin Kung Fu",
       "price": 150,
-      "cover": "https://www.billymannemartialarts.com.au/wp-content/uploads/2019/09/billyandfriends-600x600.jpg"
+      "cover": "https://www.billymannemartialarts.com.au/wp-content/uploads/2018/09/kidsstars-600x500.jpg"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "id": 3,
       "title": "Tai Chi",
       "price": 300,
-      "cover": "https://www.billymannemartialarts.com.au/wp-content/uploads/2018/09/kidsstars-600x500.jpg"
+      "cover": "https://www.billymannemartialarts.com.au/wp-content/uploads/2019/09/billyandfriends-600x600.jpg"
     },
     {
       "id": 4,
@@ -93,6 +93,22 @@
       "title": "Chul dhore tana-tani",
       "price": 1050,
       "cover": "https://st2.depositphotos.com/5740452/49760/v/1600/depositphotos_497605784-stock-illustration-abstract-hockey-goalkeeper-from-splash.jpg"
+    }
+  ],
+  "aboutus": [
+    {
+      "id": 1,
+      "img": "https://mlep2ywfmclb.i.optimole.com/z9M7NOk-5LpZScSc/w:495/h:350/q:90/https://shaolin-yuntai.com/wp-content/uploads/2019/07/learn-chinese-calligraphy-classes.jpg",
+      "title": "who we are",
+      "dsc": "Master Chong’s World Class Taekwondo Centers were founded by Grand Master Sun Ki Chong. Grand Master Chong is one of the leading Taekwondo instructors in the world. He is both a former Korean champion, as well as a former head coach for the U.S. National Taekwondo team. Grand Master Chong continues to be highly involved in the operation of all of our locations. He conducts instructor training for our full time staff on a weekly basis, and oversees the student belt testing process for both color belt and black belt exams."
+    }
+  ],
+  "ourmission": [
+    {
+      "id": 1,
+      "title": "Our mission",
+      "dsc": "We are the largest martial art school in the world, we are trying to spread out around the world to be self defense. Our direction and your dedication helps to to save our lives to lead the healty and happy life.",
+      "img": "https://mlep2ywfmclb.i.optimole.com/z9M7NOk-lsO0lzUO/w:auto/h:auto/q:90/https://shaolin-yuntai.com/wp-content/uploads/2019/09/yuntaiacademy03_595_copyrights-yuntai.jpg"
     }
   ]
 }
