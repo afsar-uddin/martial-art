@@ -1,0 +1,36 @@
+.footer {
+    background-color: #313131;
+    padding: 40px 0;
+}
+.footer a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.single-footer img {
+    max-width: 130px;
+}
+.single-footer nav a {
+    display: block;
+    transition: all 0.4s;
+}
+.single-footer nav a:hover {
+    background-color: #000;
+}
+.single-footer h3 {
+    color: #fff;
+}
+.social a {
+    font-size: 24px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.4s;
+}
+.social a:hover {
+    background-color: #313131;
+}

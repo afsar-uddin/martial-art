@@ -1,9 +1,10 @@
 .header {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    padding: 40px 0px;
 }
 .logo img {
-    max-width: 100px;
+    max-width: 70px;
 }
 .header-info {
     display: flex;
