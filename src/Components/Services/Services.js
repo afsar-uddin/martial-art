@@ -29,7 +29,7 @@ const Services = () => {
                 }
             </Row>
             <Col className="view-more">
-                <Link className="btn-link" to="/">View more services</Link>
+                <Link className="btn-link" to="/servicesall">View more services</Link>
             </Col>
         </Container>
     );

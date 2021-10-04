@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Services from './Components/Services/Services';
+import ServicesAll from './Components/Services/ServicesAll';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/servicesall">
+            <ServicesAll></ServicesAll>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

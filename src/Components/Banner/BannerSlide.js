@@ -9,7 +9,7 @@ const BannerSlide = (props) => {
             <div className="banner-caption">
                 <h2>{title}</h2>
                 <p>{dsc}</p>
-                <Link className="btn-link" to="/">All Services</Link>
+                <Link className="btn-link" to="/servicesall">All Services</Link>
             </div>
         </div>
     );
